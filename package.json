@@ -1,0 +1,25 @@
+{
+  "name": "smart_railway_route_finder_2-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+"scripts": {
+  "start": "electron .",
+  "build": "electron-builder --win"
+},
+"build": {
+  "appId": "com.railway.routefinder",
+  "productName": "Smart Railway Route Finder",
+  "win": {
+    "target": "nsis"
+  }
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^45.4.1",
+    "electron-builder": "^26.18.0"
+  }
+}
